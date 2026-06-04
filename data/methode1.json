@@ -2,6 +2,18 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "10:56:12",
+      "materiau": "PVC",
+      "longueur": 0.4,
+      "v_moy": 260.2,
+      "ecart_type": 15.6,
+      "U_elargie": 98.0,
+      "nb_conserves": 9,
+      "nb_total": 10,
+      "dt_moy": "1.542ms"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "10:46:48",
       "materiau": "metal",
       "longueur": 0.4,
@@ -51,13 +63,13 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - metal_20260604_104644.png",
-      "label": "Signal temporel - Temps de vol - metal_20260604"
+      "src": "graphiques/Signal temporel - Temps de vol - PVC_20260604_105608.png",
+      "label": "Signal temporel - Temps de vol - PVC_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - metal_20260604_104644.png",
-      "label": "Histogramme vitesses - Temps de vol - metal_20260604"
+      "src": "graphiques/Histogramme vitesses - Temps de vol - PVC_20260604_105609.png",
+      "label": "Histogramme vitesses - Temps de vol - PVC_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 10:46"
+  "derniere_maj": "04/06/2026 à 10:56"
 }
