@@ -47,117 +47,31 @@
       "nb_conserves": 9,
       "nb_total": 10,
       "dt_moy": "1.542ms"
-    },
-    {
-      "date": "04/06/2026",
-      "heure": "10:46:48",
-      "materiau": "metal",
-      "longueur": 0.4,
-      "v_moy": 221.3,
-      "ecart_type": 75.9,
-      "U_elargie": 110.8,
-      "nb_conserves": 10,
-      "nb_total": 10,
-      "dt_moy": "2.276ms"
-    },
-    {
-      "date": "04/06/2026",
-      "heure": "10:30:40",
-      "materiau": "mousse",
-      "longueur": 0.4,
-      "v_moy": 260.4,
-      "ecart_type": 11.6,
-      "U_elargie": 98.0,
-      "nb_conserves": 9,
-      "nb_total": 10,
-      "dt_moy": "1.539ms"
-    },
-    {
-      "date": "04/06/2026",
-      "heure": "09:47:20",
-      "materiau": "plastique",
-      "longueur": 0.35,
-      "v_moy": 232.6,
-      "ecart_type": 12.9,
-      "U_elargie": 89.4,
-      "nb_conserves": 9,
-      "nb_total": 10,
-      "dt_moy": "1.509ms"
-    },
-    {
-      "date": "04/06/2026",
-      "heure": "09:36:48",
-      "materiau": "plastique",
-      "longueur": 0.35,
-      "v_moy": 200.3,
-      "ecart_type": 67.1,
-      "U_elargie": 95.4,
-      "nb_conserves": 10,
-      "nb_total": 10,
-      "dt_moy": "2.148ms"
     }
   ],
+
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - plastique_20260604_094716.png",
-      "label": "Signal temporel - Temps de vol - plastique_20260604"
+      "src": "graphiques/Signal_temporel_plastique_20260604_094716.png",
+      "label": "Signal temporel plastique",
+      "materiau": "plastique"
     },
     {
-      "src": "graphiques/Signal temporel - Temps de vol - plastique_20260604_093645.png",
-      "label": "Signal temporel - Temps de vol - plastique_20260604"
+      "src": "graphiques/Signal_temporel_mousse_20260604_112958.png",
+      "label": "Signal temporel mousse",
+      "materiau": "mousse"
     },
     {
-      "src": "graphiques/Signal temporel - Temps de vol - mousse_20260604_112958.png",
-      "label": "Signal temporel - Temps de vol - mousse_20260604"
+      "src": "graphiques/Signal_temporel_PVC_20260604_111354.png",
+      "label": "Signal temporel PVC",
+      "materiau": "PVC"
     },
     {
-      "src": "graphiques/Signal temporel - Temps de vol - mousse_20260604_103037.png",
-      "label": "Signal temporel - Temps de vol - mousse_20260604"
-    },
-    {
-      "src": "graphiques/Signal temporel - Temps de vol - metal_20260604_104644.png",
-      "label": "Signal temporel - Temps de vol - metal_20260604"
-    },
-    {
-      "src": "graphiques/Signal temporel - Temps de vol - PVC_20260604_111354.png",
-      "label": "Signal temporel - Temps de vol - PVC_20260604"
-    },
-    {
-      "src": "graphiques/Signal temporel - Temps de vol - PVC_20260604_105608.png",
-      "label": "Signal temporel - Temps de vol - PVC_20260604"
-    },
-    {
-      "src": "graphiques/Signal temporel - Temps de vol - Bois type reconstitue_20260604_112014.png",
-      "label": "Signal temporel - Temps de vol - Bois type reconstitue_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - plastique_20260604_094717.png",
-      "label": "Histogramme vitesses - Temps de vol - plastique_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - plastique_20260604_093645.png",
-      "label": "Histogramme vitesses - Temps de vol - plastique_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - mousse_20260604_112958.png",
-      "label": "Histogramme vitesses - Temps de vol - mousse_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - metal_20260604_104644.png",
-      "label": "Histogramme vitesses - Temps de vol - metal_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - PVC_20260604_111354.png",
-      "label": "Histogramme vitesses - Temps de vol - PVC_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - PVC_20260604_105609.png",
-      "label": "Histogramme vitesses - Temps de vol - PVC_20260604"
-    },
-    {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604_112015.png",
-      "label": "Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604"
+      "src": "graphiques/Signal_temporel_Bois_20260604_112014.png",
+      "label": "Signal temporel bois",
+      "materiau": "Bois type reconstitue"
     }
   ],
+
   "derniere_maj": "04/06/2026 à 11:30"
 }
