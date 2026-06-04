@@ -129,16 +129,112 @@
   ],
   "graphiques": [
     {
+      "src": "graphiques/Histogramme vitesses - Atténuation - platique_20260604_101833.png",
+      "label": "Histogramme vitesses - Atténuation - platique_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - plastique_20260604_101001.png",
+      "label": "Histogramme vitesses - Atténuation - plastique_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_113202.png",
+      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_103712.png",
+      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_103336.png",
+      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - metal_20260604_104937.png",
+      "label": "Histogramme vitesses - Atténuation - metal_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - PVC_20260604_111603.png",
+      "label": "Histogramme vitesses - Atténuation - PVC_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - PVC_20260604_105855.png",
+      "label": "Histogramme vitesses - Atténuation - PVC_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - Bois type reconstitue_20260604_112153.png",
+      "label": "Histogramme vitesses - Atténuation - Bois type reconstitue_20260604"
+    },
+    {
+      "src": "graphiques/FFT - platique_20260604_101832.png",
+      "label": "FFT - platique_20260604"
+    },
+    {
+      "src": "graphiques/FFT - plastique_20260604_101000.png",
+      "label": "FFT - plastique_20260604"
+    },
+    {
       "src": "graphiques/FFT - mousse_20260604_113201.png",
       "label": "FFT - mousse_20260604"
+    },
+    {
+      "src": "graphiques/FFT - mousse_20260604_103711.png",
+      "label": "FFT - mousse_20260604"
+    },
+    {
+      "src": "graphiques/FFT - mousse_20260604_103335.png",
+      "label": "FFT - mousse_20260604"
+    },
+    {
+      "src": "graphiques/FFT - metal_20260604_104936.png",
+      "label": "FFT - metal_20260604"
+    },
+    {
+      "src": "graphiques/FFT - PVC_20260604_111602.png",
+      "label": "FFT - PVC_20260604"
+    },
+    {
+      "src": "graphiques/FFT - PVC_20260604_105854.png",
+      "label": "FFT - PVC_20260604"
+    },
+    {
+      "src": "graphiques/FFT - Bois type reconstitue_20260604_112152.png",
+      "label": "FFT - Bois type reconstitue_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - platique_20260604_101832.png",
+      "label": "Enveloppe fit exponentiel - platique_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - plastique_20260604_101000.png",
+      "label": "Enveloppe fit exponentiel - plastique_20260604"
     },
     {
       "src": "graphiques/Enveloppe fit exponentiel - mousse_20260604_113202.png",
       "label": "Enveloppe fit exponentiel - mousse_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_113202.png",
-      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
+      "src": "graphiques/Enveloppe fit exponentiel - mousse_20260604_103711.png",
+      "label": "Enveloppe fit exponentiel - mousse_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - mousse_20260604_103335.png",
+      "label": "Enveloppe fit exponentiel - mousse_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - metal_20260604_104936.png",
+      "label": "Enveloppe fit exponentiel - metal_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - PVC_20260604_111602.png",
+      "label": "Enveloppe fit exponentiel - PVC_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - PVC_20260604_105855.png",
+      "label": "Enveloppe fit exponentiel - PVC_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - Bois type reconstitue_20260604_112153.png",
+      "label": "Enveloppe fit exponentiel - Bois type reconstitue_20260604"
     }
   ],
   "derniere_maj": "04/06/2026 à 11:32"
