@@ -2,6 +2,20 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "11:16:06",
+      "materiau": "PVC",
+      "longueur": 0.4,
+      "v_moy": 1302.9,
+      "ecart_type": 1344.1,
+      "U_elargie": 1846.1,
+      "nb_conserves": 10,
+      "nb_total": 10,
+      "alpha": "0.5874m-1",
+      "omega": "66.60rad/s",
+      "tan_delta": "21.3555"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "10:58:59",
       "materiau": "PVC",
       "longueur": 0.4,
@@ -87,17 +101,17 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/FFT - PVC_20260604_105854.png",
+      "src": "graphiques/FFT - PVC_20260604_111602.png",
       "label": "FFT - PVC_20260604"
     },
     {
-      "src": "graphiques/Enveloppe fit exponentiel - PVC_20260604_105855.png",
+      "src": "graphiques/Enveloppe fit exponentiel - PVC_20260604_111602.png",
       "label": "Enveloppe fit exponentiel - PVC_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Atténuation - PVC_20260604_105855.png",
+      "src": "graphiques/Histogramme vitesses - Atténuation - PVC_20260604_111603.png",
       "label": "Histogramme vitesses - Atténuation - PVC_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 10:58"
+  "derniere_maj": "04/06/2026 à 11:16"
 }
