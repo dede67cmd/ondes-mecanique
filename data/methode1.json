@@ -2,6 +2,18 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "09:47:20",
+      "materiau": "plastique",
+      "longueur": 0.35,
+      "v_moy": 232.6,
+      "ecart_type": 12.9,
+      "U_elargie": 89.4,
+      "nb_conserves": 9,
+      "nb_total": 10,
+      "dt_moy": "1.509ms"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "09:36:48",
       "materiau": "plastique",
       "longueur": 0.35,
@@ -15,13 +27,13 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - plastique_20260604_093645.png",
+      "src": "graphiques/Signal temporel - Temps de vol - plastique_20260604_094716.png",
       "label": "Signal temporel - Temps de vol - plastique_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - plastique_20260604_093645.png",
+      "src": "graphiques/Histogramme vitesses - Temps de vol - plastique_20260604_094717.png",
       "label": "Histogramme vitesses - Temps de vol - plastique_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 09:36"
+  "derniere_maj": "04/06/2026 à 09:47"
 }
