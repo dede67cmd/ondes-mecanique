@@ -57,7 +57,7 @@
   </footer>
 
   <script>
-    fetch('data/methode1.json')
+    fetch('./data/methode1.json')
       .then(r => r.json())
       .then(data => {
         if (!data || !data.mesures || data.mesures.length === 0) return;
