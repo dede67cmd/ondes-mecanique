@@ -2,6 +2,20 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "10:18:33",
+      "materiau": "platique",
+      "longueur": 0.35,
+      "v_moy": 281.0,
+      "ecart_type": 190.6,
+      "U_elargie": 165.6,
+      "nb_conserves": 9,
+      "nb_total": 10,
+      "alpha": "0.6535m-1",
+      "omega": "20.11rad/s",
+      "tan_delta": "18.2696"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "10:10:05",
       "materiau": "plastique",
       "longueur": 0.35,
@@ -17,17 +31,17 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/FFT - plastique_20260604_101000.png",
-      "label": "FFT - plastique_20260604"
+      "src": "graphiques/FFT - platique_20260604_101832.png",
+      "label": "FFT - platique_20260604"
     },
     {
-      "src": "graphiques/Enveloppe fit exponentiel - plastique_20260604_101000.png",
-      "label": "Enveloppe fit exponentiel - plastique_20260604"
+      "src": "graphiques/Enveloppe fit exponentiel - platique_20260604_101832.png",
+      "label": "Enveloppe fit exponentiel - platique_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Atténuation - plastique_20260604_101001.png",
-      "label": "Histogramme vitesses - Atténuation - plastique_20260604"
+      "src": "graphiques/Histogramme vitesses - Atténuation - platique_20260604_101833.png",
+      "label": "Histogramme vitesses - Atténuation - platique_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 10:10"
+  "derniere_maj": "04/06/2026 à 10:18"
 }
