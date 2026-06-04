@@ -96,7 +96,7 @@
           const graphs = allGraphs.filter(g => {
             const tsG = tsFromFilename(g.src);
             if (tsG === null) return false;
-            return Math.abs(tsG - tsMesure) <= 900;
+            return Math.abs(tsG - tsMesure) <= 120;
           });
 
           html += `<tr class="data-row" data-idx="${i}">
