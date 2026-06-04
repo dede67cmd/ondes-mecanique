@@ -2,6 +2,18 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "10:46:48",
+      "materiau": "metal",
+      "longueur": 0.4,
+      "v_moy": 221.3,
+      "ecart_type": 75.9,
+      "U_elargie": 110.8,
+      "nb_conserves": 10,
+      "nb_total": 10,
+      "dt_moy": "2.276ms"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "10:30:40",
       "materiau": "mousse",
       "longueur": 0.4,
@@ -39,13 +51,13 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - mousse_20260604_103037.png",
-      "label": "Signal temporel - Temps de vol - mousse_20260604"
+      "src": "graphiques/Signal temporel - Temps de vol - metal_20260604_104644.png",
+      "label": "Signal temporel - Temps de vol - metal_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - mousse_20260604_103037.png",
-      "label": "Histogramme vitesses - Temps de vol - mousse_20260604"
+      "src": "graphiques/Histogramme vitesses - Temps de vol - metal_20260604_104644.png",
+      "label": "Histogramme vitesses - Temps de vol - metal_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 10:30"
+  "derniere_maj": "04/06/2026 à 10:46"
 }
