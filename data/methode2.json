@@ -1,0 +1,33 @@
+{
+  "mesures": [
+    {
+      "date": "04/06/2026",
+      "heure": "10:10:05",
+      "materiau": "plastique",
+      "longueur": 0.35,
+      "v_moy": 539.5,
+      "ecart_type": 2753.1,
+      "U_elargie": 454.4,
+      "nb_conserves": 10,
+      "nb_total": 10,
+      "alpha": "0.2453m-1",
+      "omega": "366.94rad/s",
+      "tan_delta": "0.7212"
+    }
+  ],
+  "graphiques": [
+    {
+      "src": "graphiques/FFT - plastique_20260604_101000.png",
+      "label": "FFT - plastique_20260604"
+    },
+    {
+      "src": "graphiques/Enveloppe fit exponentiel - plastique_20260604_101000.png",
+      "label": "Enveloppe fit exponentiel - plastique_20260604"
+    },
+    {
+      "src": "graphiques/Histogramme vitesses - Atténuation - plastique_20260604_101001.png",
+      "label": "Histogramme vitesses - Atténuation - plastique_20260604"
+    }
+  ],
+  "derniere_maj": "04/06/2026 à 10:10"
+}
