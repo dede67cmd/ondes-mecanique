@@ -91,7 +91,7 @@
             const tsG = tsFromFilename(g.src);
             if (tsG === null) return false;
             const diff = tsG - tsMesure;
-            return diff >= 0 && diff <= 120;
+            Math.abs(diff) <= 120
           });
 
           html += `<tr class="data-row" data-idx="${i}">
