@@ -2,6 +2,18 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "11:30:02",
+      "materiau": "mousse",
+      "longueur": 0.4,
+      "v_moy": 267.1,
+      "ecart_type": 14.8,
+      "U_elargie": 103.1,
+      "nb_conserves": 10,
+      "nb_total": 10,
+      "dt_moy": "1.502ms"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "11:20:18",
       "materiau": "Bois type reconstitue",
       "longueur": 0.4,
@@ -87,13 +99,13 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - Bois type reconstitue_20260604_112014.png",
-      "label": "Signal temporel - Temps de vol - Bois type reconstitue_20260604"
+      "src": "graphiques/Signal temporel - Temps de vol - mousse_20260604_112958.png",
+      "label": "Signal temporel - Temps de vol - mousse_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604_112015.png",
-      "label": "Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604"
+      "src": "graphiques/Histogramme vitesses - Temps de vol - mousse_20260604_112958.png",
+      "label": "Histogramme vitesses - Temps de vol - mousse_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 11:20"
+  "derniere_maj": "04/06/2026 à 11:30"
 }
