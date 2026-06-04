@@ -2,6 +2,20 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "10:49:40",
+      "materiau": "metal",
+      "longueur": 0.4,
+      "v_moy": 226.0,
+      "ecart_type": 173.8,
+      "U_elargie": 118.4,
+      "nb_conserves": 8,
+      "nb_total": 10,
+      "alpha": "0.1851m-1",
+      "omega": "12.57rad/s",
+      "tan_delta": "6.6600"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "10:37:16",
       "materiau": "mousse",
       "longueur": 0.4,
@@ -59,17 +73,17 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/FFT - mousse_20260604_103711.png",
-      "label": "FFT - mousse_20260604"
+      "src": "graphiques/FFT - metal_20260604_104936.png",
+      "label": "FFT - metal_20260604"
     },
     {
-      "src": "graphiques/Enveloppe fit exponentiel - mousse_20260604_103711.png",
-      "label": "Enveloppe fit exponentiel - mousse_20260604"
+      "src": "graphiques/Enveloppe fit exponentiel - metal_20260604_104936.png",
+      "label": "Enveloppe fit exponentiel - metal_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_103712.png",
-      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
+      "src": "graphiques/Histogramme vitesses - Atténuation - metal_20260604_104937.png",
+      "label": "Histogramme vitesses - Atténuation - metal_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 10:37"
+  "derniere_maj": "04/06/2026 à 10:49"
 }
