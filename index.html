@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propagation des ondes mécaniques</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <img src="logo.png" alt="IUT Louis Pasteur" class="logo">
+      <div class="header-text">
+        <span class="dept">BUT Mesures Physiques</span>
+        <h1>Propagation des ondes mécaniques</h1>
+        <p class="subtitle">Mesure de la vitesse de propagation dans différents matériaux</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="methode1.html">Méthode 1 — Temps de vol</a>
+      <a href="methode2.html">Méthode 2 — Atténuation</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-label">Projet instrumental</div>
+      <h2>Mesure de vitesse de propagation<br>d'ondes dans les solides</h2>
+      <p>Ce projet utilise deux accéléromètres MMA8451 connectés à une Raspberry Pi 4 pour mesurer la vitesse de propagation d'ondes mécaniques dans différents matériaux. Trois méthodes de mesure indépendantes sont mises en œuvre et comparées.</p>
+    </section>
+
+    <section class="cards">
+      <a href="methode1.html" class="card">
+        <div class="card-number">01</div>
+        <h3>Temps de vol</h3>
+        <p>Détection du front d'onde par seuillage entre les deux capteurs. Mesure directe du délai temporel Δt.</p>
+        <div class="card-formula">v = d / Δt</div>
+      </a>
+      <a href="methode2.html" class="card">
+        <div class="card-number">02</div>
+        <h3>Atténuation</h3>
+        <p>Analyse de l'énergie perdue entre les deux capteurs via le ratio d'amplitudes, FFT et fit exponentiel.</p>
+        <div class="card-formula">v = ω·tan(δ) / 2α</div>
+      </a>
+
+    </section>
+
+    <section class="setup">
+      <h2>Dispositif expérimental</h2>
+      <div class="setup-grid">
+        <div class="setup-item">
+          <div class="setup-icon">⚙️</div>
+          <h4>Capteurs</h4>
+          <p>2× MMA8451 — accéléromètres 3 axes, bus I²C, 800 Hz d'échantillonnage</p>
+        </div>
+        <div class="setup-item">
+          <div class="setup-icon">🖥️</div>
+          <h4>Calculateur</h4>
+          <p>Raspberry Pi 4 — acquisition, traitement du signal, envoi des résultats</p>
+        </div>
+        <div class="setup-item">
+          <div class="setup-icon">🔩</div>
+          <h4>Excitation</h4>
+          <p>Électroaimant + bille — choc reproductible, énergie d'impact constante</p>
+        </div>
+        <div class="setup-item">
+          <div class="setup-icon">📊</div>
+          <h4>Traitement</h4>
+          <p>Test de Grubbs itératif (ISO 5725), propagation des incertitudes, k=2</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>IUT Louis Pasteur — Université de Strasbourg — BUT Mesures Physiques</p>
+    <p class="footer-update">Dernière mise à jour : <span id="last-update">—</span></p>
+  </footer>
+
+  <script>
+    // Lit la date de dernière mise à jour depuis un fichier JSON généré par la Raspberry
+    fetch('data/last_update.json')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('last-update').textContent = d.date;
+      })
+      .catch(() => {});
+  </script>
+
+</body>
+</html>
