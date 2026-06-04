@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Méthode 3 — Corrélation croisée</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <img src="logo.png" alt="IUT Louis Pasteur" class="logo">
+      <div class="header-text">
+        <span class="dept">BUT Mesures Physiques</span>
+        <h1>Propagation des ondes mécaniques</h1>
+        <p class="subtitle">Mesure de la vitesse de propagation dans différents matériaux</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="methode1.html">Méthode 1 — Temps de vol</a>
+      <a href="methode2.html">Méthode 2 — Atténuation</a>
+      <a href="methode3.html" class="active">Méthode 3 — Corrélation croisée</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <span class="method-tag">Méthode 03</span>
+      <h2>Corrélation croisée</h2>
+      <p style="color:var(--text-muted);max-width:640px;font-size:0.92rem;">
+        Comparaison de la forme globale des deux signaux pour estimer le décalage temporel.
+        Plus robuste que le seuillage simple, la corrélation croisée utilise l'intégralité
+        du signal. Une interpolation parabolique affine la précision au-delà d'un échantillon.
+      </p>
+      <div class="formula-block">τ = argmax(s₁ ⋆ s₂) &nbsp;|&nbsp; v = d / τ</div>
+    </div>
+
+    <div class="results-section">
+      <h3>Résultats des mesures</h3>
+      <div id="table-container">
+        <div class="empty-state">
+          <div class="empty-icon">📡</div>
+          <p>Aucune mesure disponible pour le moment.<br>Les résultats apparaîtront ici après une série de mesures.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="graphs-section">
+      <h3>Graphiques</h3>
+      <div id="graphs-container" class="graphs-grid"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>IUT Louis Pasteur — Université de Strasbourg — BUT Mesures Physiques</p>
+    <p class="footer-update">Dernière mise à jour : <span id="last-update">—</span></p>
+  </footer>
+
+  <script>
+    fetch('data/methode3.json')
+      .then(r => r.json())
+      .then(data => {
+        if (!data || !data.mesures || data.mesures.length === 0) return;
+
+        let html = `<table>
+          <thead><tr>
+            <th>Date</th><th>Heure</th><th>Matériau</th><th>Distance (m)</th>
+            <th>Δt moy. (ms)</th><th>Vitesse moy. (m/s)</th>
+            <th>Écart-type</th><th>U élargie (k=2)</th><th>Mesures conservées</th>
+          </tr></thead><tbody>`;
+
+        data.mesures.forEach(m => {
+          html += `<tr>
+            <td>${m.date}</td>
+            <td>${m.heure}</td>
+            <td class="materiau">${m.materiau}</td>
+            <td>${m.longueur}</td>
+            <td>${m.dt_moy}</td>
+            <td class="vitesse">${m.v_moy} m/s</td>
+            <td>${m.ecart_type} m/s</td>
+            <td class="incertitude">± ${m.U_elargie} m/s</td>
+            <td>${m.nb_conserves}/${m.nb_total}</td>
+          </tr>`;
+        });
+        html += '</tbody></table>';
+        document.getElementById('table-container').innerHTML = html;
+
+        if (data.graphiques && data.graphiques.length > 0) {
+          const gc = document.getElementById('graphs-container');
+          data.graphiques.forEach(g => {
+            gc.innerHTML += `<div class="graph-card">
+              <img src="${g.src}" alt="${g.label}">
+              <div class="graph-label">${g.label}</div>
+            </div>`;
+          });
+        }
+
+        document.getElementById('last-update').textContent = data.derniere_maj || '—';
+      })
+      .catch(() => {});
+  </script>
+
+</body>
+</html>
