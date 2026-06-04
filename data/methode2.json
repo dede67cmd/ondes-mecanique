@@ -2,6 +2,20 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "11:32:06",
+      "materiau": "mousse",
+      "longueur": 0.4,
+      "v_moy": 205.7,
+      "ecart_type": 151.0,
+      "U_elargie": 229.8,
+      "nb_conserves": 9,
+      "nb_total": 10,
+      "alpha": "1.1116m-1",
+      "omega": "92.15rad/s",
+      "tan_delta": "11.2887"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "11:21:57",
       "materiau": "Bois type reconstitue",
       "longueur": 0.4,
@@ -115,17 +129,17 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/FFT - Bois type reconstitue_20260604_112152.png",
-      "label": "FFT - Bois type reconstitue_20260604"
+      "src": "graphiques/FFT - mousse_20260604_113201.png",
+      "label": "FFT - mousse_20260604"
     },
     {
-      "src": "graphiques/Enveloppe fit exponentiel - Bois type reconstitue_20260604_112153.png",
-      "label": "Enveloppe fit exponentiel - Bois type reconstitue_20260604"
+      "src": "graphiques/Enveloppe fit exponentiel - mousse_20260604_113202.png",
+      "label": "Enveloppe fit exponentiel - mousse_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Atténuation - Bois type reconstitue_20260604_112153.png",
-      "label": "Histogramme vitesses - Atténuation - Bois type reconstitue_20260604"
+      "src": "graphiques/Histogramme vitesses - Atténuation - mousse_20260604_113202.png",
+      "label": "Histogramme vitesses - Atténuation - mousse_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 11:21"
+  "derniere_maj": "04/06/2026 à 11:32"
 }
