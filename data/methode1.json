@@ -2,6 +2,18 @@
   "mesures": [
     {
       "date": "04/06/2026",
+      "heure": "11:20:18",
+      "materiau": "Bois type reconstitue",
+      "longueur": 0.4,
+      "v_moy": 266.3,
+      "ecart_type": 14.6,
+      "U_elargie": 102.5,
+      "nb_conserves": 9,
+      "nb_total": 10,
+      "dt_moy": "1.506ms"
+    },
+    {
+      "date": "04/06/2026",
       "heure": "11:13:57",
       "materiau": "PVC",
       "longueur": 0.4,
@@ -75,13 +87,13 @@
   ],
   "graphiques": [
     {
-      "src": "graphiques/Signal temporel - Temps de vol - PVC_20260604_111354.png",
-      "label": "Signal temporel - Temps de vol - PVC_20260604"
+      "src": "graphiques/Signal temporel - Temps de vol - Bois type reconstitue_20260604_112014.png",
+      "label": "Signal temporel - Temps de vol - Bois type reconstitue_20260604"
     },
     {
-      "src": "graphiques/Histogramme vitesses - Temps de vol - PVC_20260604_111354.png",
-      "label": "Histogramme vitesses - Temps de vol - PVC_20260604"
+      "src": "graphiques/Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604_112015.png",
+      "label": "Histogramme vitesses - Temps de vol - Bois type reconstitue_20260604"
     }
   ],
-  "derniere_maj": "04/06/2026 à 11:13"
+  "derniere_maj": "04/06/2026 à 11:20"
 }
